@@ -5,3 +5,9 @@ compile
 scala
 exit
 console
+compile
+clean
+compile
+console
+run
+exit
