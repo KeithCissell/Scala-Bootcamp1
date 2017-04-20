@@ -1,4 +1,4 @@
-// src/main/scala/progscala2/introscala/upper1.scala
+// src/main/scala/progscala2/ch1-introscala/upper1.scala
 package progscala2.introscala
 
 object Upper2 {

@@ -1,4 +1,4 @@
-// src/main/scala/progscala2/introscala/shapes/ShapesActorDriver.scala
+// src/main/scala/progscala2/ch1-introscala/shapes/ShapesActorDriver.scala
 package progscala2.introscala.shapes
 import akka.actor.{Props, Actor, ActorRef, ActorSystem}
 import com.typesafe.config.ConfigFactory

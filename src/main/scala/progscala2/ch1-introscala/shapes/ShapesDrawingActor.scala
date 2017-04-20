@@ -1,4 +1,4 @@
-// src/main/scala/progscala2/introscala/shapes/ShapesDrawingActor.scala
+// src/main/scala/progscala2/ch1-introscala/shapes/ShapesDrawingActor.scala
 package progscala2.introscala.shapes
 
 object Messages {
