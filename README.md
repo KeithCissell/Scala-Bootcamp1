@@ -45,3 +45,15 @@ Working along with O'Reilly's Programming Scala 2nd Edition.
   * `sealed abstract class Option[+A] ... { ... }`
 * final: prevents any subtypes of a class from being created
   * `final class dontExtendMe[T] ... { ... }`
+* Packages
+  * Cannot be declared in classes or objects
+  * __Note: scripts are interpreted as objects__
+  * Importing specific dependency from a package:   `import package.dep`
+  * Importing multiple dependencies from a packgae: `import package.{dep1, dep2}`
+  * Importing all dependencies from a package:      `import package._`
+  * Scoping: Imports can be used almost anywhere for use only in the scope where they are declared
+  * Aliasing: You can rename variables when importing them by adding `=> myVarName` after import
+    * renaming to `=> _` makes the variable invisible (used to exclude certain vars when importing entire packages)
+* Parameterized Types
+  * Covariant Typing: `List[+A]` B will be a subtype of A
+  * Contravariant Typing: `List[-A]` B will the a supertype of A
