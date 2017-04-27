@@ -6,6 +6,12 @@ Messed around with scala REPL
 Created a class of 2D vectors and defined vector addition, subtraction and scalar multiplication
 Used a for loop to pattern match strings with numbers and yielded a new list of Ints
 
+## Milestone Project
+Create a few classes that will represent pieces of a search engine
+User
+Search
+Result
+
 ## Book Work
 Working along with O'Reilly's Programming Scala 2nd Edition.
 
