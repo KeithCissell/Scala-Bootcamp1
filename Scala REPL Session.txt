@@ -1,0 +1,25 @@
+Last login: Tue Apr 25 15:11:36 on ttys000
+keith-cis-mac:Iteration1 kcissell$ scala
+Welcome to Scala 2.12.1 (Java HotSpot(TM) 64-Bit Server VM, Java 1.8.0_121).
+Type in expressions for evaluation. Or try :help.
+
+scala> 4 + 5.0
+res0: Double = 9.0
+
+scala> val hello = "Hi there World!"
+hello: String = Hi there World!
+
+scala> var days = List("SUN","MON","TUE","WED","THR","FRI","SAT")
+days: List[String] = List(SUN, MON, TUE, WED, THR, FRI, SAT)
+
+scala> for (day <- days if day != "SAT" && day != "SUN") println(day)
+MON
+TUE
+WED
+THR
+FRI
+
+scala> import scala.io.Source
+import scala.io.Source
+
+scala> 
