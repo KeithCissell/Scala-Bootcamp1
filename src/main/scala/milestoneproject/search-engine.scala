@@ -3,7 +3,15 @@ package milestoneproject
 
 object searchEngine {
   // Search Engine Classes
-  case class User(name: String, password: String, searchHistory: List[Search])
+  class User(name: String, pass: String, history: List[Search]) {
+    val userName = name
+    private val password = pass
+    val searchHistory = history
+
+    override def toString: String = {
+      return s"${userName}'s Search History\n$searchHistory"
+    }
+  }
 
   case class Search(value: String, results: List[Result])
 
@@ -37,11 +45,11 @@ object searchEngine {
     val badSearch = Search("asdfffffff", List())
 
     // Create some users
-    val Keith = User("Keith", "StrongPassWord", List(cardinalsSearch, weatherSearch))
-    val Connor = User("Connor", "SecretPhrase", List(weatherSearch, catVideoSearch, badSearch))
-    val Curly = User("Curly", "Password123", List())
-    val Moe = User("Moe", "Wordpass321", List(pieSearch))
-    val Larry = User("Larry", "NyakNyakNyak", List(pieSearch, weatherSearch))
+    val Keith = new User("Keith", "StrongPassWord", List(cardinalsSearch, weatherSearch))
+    val Connor = new User("Connor", "SecretPhrase", List(weatherSearch, catVideoSearch, badSearch))
+    val Curly = new User("Curly", "Password123", List())
+    val Moe = new User("Moe", "Wordpass321", List(pieSearch))
+    val Larry = new User("Larry", "NyakNyakNyak", List(pieSearch, weatherSearch))
 
     // Create a list of all the users
     val searchEngineUsers = List(Keith, Connor, Curly, Moe, Larry)
