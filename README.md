@@ -1,6 +1,11 @@
 # Iteration1
 Iteration1 of the scala learning modules.
 
+## Scala Basics
+Messed around with scala REPL
+Created a class of 2D vectors and defined vector addition, subtraction and scalar multiplication
+Used a for loop to pattern match strings with numbers and yielded a new list of Ints
+
 ## Book Work
 Working along with O'Reilly's Programming Scala 2nd Edition.
 
@@ -65,7 +70,7 @@ Working along with O'Reilly's Programming Scala 2nd Edition.
 * Parameterized Types
   * Covariant Typing: `List[+A]` B will be a subtype of A
   * Contravariant Typing: `List[-A]` B will the a supertype of A
-  
+
 ### Chapter 3
 * Operators
   * Almost all operators are methods
