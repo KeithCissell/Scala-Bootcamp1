@@ -18,7 +18,7 @@ object searchEngine {
 
     // Format a way to print user and info
     /******The nested for loops and if/elses make this code sloppy and hard to read
-    *******what would be a better approach on either of these to make it looke nicer?*/
+    *******what would be a better approach on either of these to make it look nicer?*/
     override def toString: String = {
       var str = s"$userName\n\tSearch History:\n"
       if (searchHistory.length > 0) {
@@ -55,7 +55,7 @@ object searchEngine {
     val resultDescription = description;
   }
 
-
+  // Main
   def main(args: Array[String]) {
     // Create some users
     var Keith = new User("Keith", "StrongPassWord")

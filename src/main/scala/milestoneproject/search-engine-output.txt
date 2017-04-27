@@ -1,0 +1,59 @@
+Last login: Thu Apr 27 11:01:31 on ttys000
+keith-cis-mac:milestoneproject kcissell$ sbt
+WARN: No sbt.version set in project/build.properties, base directory: /Users/kcissell/Documents/Learning-Material/Projects/Iteration1/src/main/scala/milestoneproject
+[info] Set current project to milestoneproject (in build file:/Users/kcissell/Documents/Learning-Material/Projects/Iteration1/src/main/scala/milestoneproject/)
+> run
+[info] Compiling 1 Scala source to /Users/kcissell/Documents/Learning-Material/Projects/Iteration1/src/main/scala/milestoneproject/target/scala-2.10/classes...
+[info] Running milestoneproject.searchEngine 
+Keith
+	Search History:
+		Searched: Weather
+		Results:
+			National Weather Report - Your up to date location for weather around the world.
+			Springfield's Weather - Local weather report for your area.
+		Searched: Cardinals
+		Results:
+			MLB Network - Cardinals vs. Orioles: Live Score Updates
+			Cardinals Nation - You're one stop for up to date Cardinal's score and news
+
+Connor
+	Search History:
+		Searched: asdfffffff
+		Results:
+			No results were found...
+		Searched: Cat Videos
+		Results:
+			Cat Videos United - Just a website to host cat vidoes and nothing else. You're welcome.
+			Nyan Cat Needs to Stop - "It was never funny. It's still not funny" ~everyone
+			Cat Fights Off Bear - This little cat thinks it's king of the jungle!
+		Searched: Weather
+		Results:
+			National Weather Report - Your up to date location for weather around the world.
+			Springfield's Weather - Local weather report for your area.
+
+Curly
+	Search History:
+		User has no search history
+
+Moe
+	Search History:
+		Searched: pie
+		Results:
+			Dave's Deli - Freshly made pies, muffins, donuts....
+			Pie Eating Contest - United Way is hosting a pie eating contest as a fund raiser
+			Apple Pie Recipe - Famous homemade apple pie recipe
+
+Larry
+	Search History:
+		Searched: Weather
+		Results:
+			National Weather Report - Your up to date location for weather around the world.
+			Springfield's Weather - Local weather report for your area.
+		Searched: pie
+		Results:
+			Dave's Deli - Freshly made pies, muffins, donuts....
+			Pie Eating Contest - United Way is hosting a pie eating contest as a fund raiser
+			Apple Pie Recipe - Famous homemade apple pie recipe
+
+[success] Total time: 3 s, completed Apr 27, 2017 11:06:11 AM
+> 
