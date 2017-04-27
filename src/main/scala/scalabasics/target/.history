@@ -1,0 +1,6 @@
+run-main string-to-int
+scala string-to-int
+scala StringToInt
+exit
+run
+run -deprecation
