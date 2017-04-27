@@ -4,3 +4,14 @@ scala StringToInt
 exit
 run
 run -deprecation
+run
+run 2dvector
+run 2
+exit
+run
+compile
+run
+build
+clean
+compile
+run
