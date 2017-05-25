@@ -1,5 +1,5 @@
-# Iteration1
-Iteration1 of the scala learning modules.
+# Iteration 1
+Iteration 1 of the scala learning modules.
 
 ## Scala Basics
 Messed around with scala REPL
